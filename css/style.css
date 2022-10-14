@@ -1,0 +1,225 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke !important;
+    color: hsl(44, 204, 204);
+}
+.overlay{
+   
+        background-image: url(/images/myprofile.jpg);
+        background-size: 250px;
+        background-repeat: no-repeat;
+        background-color: rgba(57, 194, 194, 0.986);
+        background-blend-mode: overlay;
+        margin-top: 13%;
+        height: 250px;
+        width: 250px;
+     
+        
+        margin-left: 20px;
+        margin-top: 54px;
+        border-radius: 12px;
+        position: relative;
+
+        /* transition: width 2s, height 2s, -webkit-transform 2s; */
+        transition: width 2s, height 2s, transform 2s;
+}
+/* .bg-light{
+    background-color: rgb(5%, 10%, 20%) !important;
+    position: fixed;
+} */
+
+element.style {
+    position: fixed;
+    right: 50px;
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+}
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+    cursor: pointer;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.outline{
+    border: 3px solid aqua;
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+    transition: width 2s, height 2s, transform 2s;
+
+}
+.overlay:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+    width: 500px;
+    height: 500px;
+    background-size: 500px;
+    transition-timing-function: ease-in-out;
+    background-blend-mode: normal;
+    transform: rotate(360deg); 
+    transform: rotate(360deg);
+    background-image: url(/images/myprofile.jpg);
+}
+.outline:hover{
+    transform: scale(1.5);
+    /* transition: 0.5s; */
+    position: initial;
+    transform: rotate(360deg); 
+    transform: rotate(360deg);
+    height: 500px;
+    width: 500px;
+    transition-timing-function: ease-in-out;
+    box-shadow: 6px -6px 2px black, -6px 6px 2px #ffffff;
+}
+
+.size{
+    height: 150px;
+    width: 150px;
+}
+body{
+    background-color: rgb(5%, 10%, 20%);
+}
+
+
+.num{
+    color: aqua !important;
+}
+.icon{
+    margin-left: 20px;
+    height: 50px;
+    /* position: fixed; */
+}
+.contacts{
+    margin-right: 20px;
+}
+.abouts{
+    position: fixed;
+}
+.aboutss{
+    position: fixed;
+    right: 200px;
+}
+.about{
+    text-align: justify !important;
+    margin-top: 40px !important;
+}
+.opacity{
+    opacity: 40%;
+}
+.info{
+    font-size: 50px;
+}
+.about-section{
+    display: flex;
+    
+}
+.about-section3{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-section2{
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-gap: 70px;
+    /* max-width: 100%; */
+}
+
+/* .content{
+    padding: 100px;
+} */
+.num1{
+    color: aqua !important;
+    font-size: 20px;
+
+}
+.inlyn{
+    display: inline;
+    margin-top: 200px;
+    text-align: center;
+}
+.image{
+    /* padding-top: 150px; */
+    height: 5px !important;
+    width: 5px !important;
+}
+.stack{
+    height: 100px !important;
+}
+.hline{
+    width: 500px;
+}
+.outlyn{
+    margin-top: 200px;
+    text-align: center;
+}
+.real{
+    background-color: red;
+}
+.card{
+    --bs-card-bg: none;
+    --bs-card-border-width:  none;
+}
+.pip{
+    margin-top: 200px;
+}
+  .prj{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+} 
+.hylinee{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 480px) {
+.prj{
+   display: block;
+   margin:  auto auto;
+        }
+        .hline{
+            display: flex;
+            justify-content: center;
+            width: 300px;
+        }
+        .hyline{
+            display: flex;
+            justify-content: center;
+        }
+        .inlyn{
+            display: inline;
+            text-align: center;
+        }
+      } 
+      .live{
+        display: flex;
+        justify-content: flex-start;
+        background-color: black;
+      }
+.by{
+    margin-top: 30px;
+    border: 2px solid aqua !important;
+    color: aqua !important;
+}
+.by:hover{
+    background-color: aqua;
+    color: white !important;
+}
+.be{
+    margin-top: 10000px !important;
+    margin-left: 3px;
+}
+.hylineee{
+    margin-top: 70px;
+}
+.pli{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
