@@ -15,7 +15,7 @@
 }
 body{
     background-color: rgb(5%, 10%, 20%);
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-timing-function: ease-in-out;
     animation-delay: 0.5s;
     animation-iteration-count: 1;
@@ -59,6 +59,13 @@ body{
     margin-left: 550px; 
     position: fixed;
     right: 100px;
+    text-align: justify;
+}
+.nav-link:hover{
+    border: 2px dotted aqua  ;
+    border-radius: 5px;
+    padding: 5px;
+    transform: scale(0.9);
 }
 .num{
     color: aqua !important;
@@ -182,7 +189,9 @@ body{
     margin-top: 200px;
     color: #ffffff !important;
     font-family: 'Courier New', Courier, monospace\ ;
-    
+}
+a{
+    text-decoration: none;
 }
 .stack{
     height: 100px !important;
